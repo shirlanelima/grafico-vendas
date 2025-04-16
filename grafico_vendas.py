@@ -12,6 +12,7 @@ def gerar_grafico_vendas(meses, vendas):
     plt.title('Vendas Mensais')
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     plt.tight_layout()
+    plt.savefig('grafico_vendas.png')  # Salvar como imagem
     plt.show()
 
 if __name__ == "__main__":
